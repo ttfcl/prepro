@@ -1,4 +1,3 @@
-<<<<<<< HEAD:client/public/login.js
 const handleLogin = async () => {
   const login_request_data = {
     email: document.getElementById("email").value,
@@ -46,7 +45,6 @@ const handleDetail = () => {
   localStorage.setItem("key", 1);
   location.href = "boardDetail.html";
 };
-=======
 const email = localStorage.getItem("email")
 const name = localStorage.getItem("name")
 const img = localStorage.getItem("img")
@@ -69,5 +67,3 @@ if(email) {
   membericon.classList.add('hide')
   name2.classList.add('hide')
 }
-
->>>>>>> 6b87f2e921fd42074f78b5cd7d44bf6de4b77f34:docs/login.js
