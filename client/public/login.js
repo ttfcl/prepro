@@ -30,7 +30,7 @@ const handleLogin = async () => {
         localStorage.setItem("email", data.email);
         localStorage.setItem("name", data.name);
         localStorage.setItem("img", data.profile_image);
-        location.href = "boardMainLogin.html";
+        location.href = "boardMain.html";
       }
     });
 };
