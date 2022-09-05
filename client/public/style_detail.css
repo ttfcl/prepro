@@ -3,11 +3,12 @@
   width: calc(100% - 164px);
   padding: 24px 16px;
   min-width: 660px;
+  display: block;
 }
 
 .qd_upper_main_wrapper {
   display: flex;
-  height: 100%;
+  width: 100%;
   justify-content: space-between;
   align-items: stretch;
 }

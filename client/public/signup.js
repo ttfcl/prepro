@@ -7,7 +7,7 @@ const handleSignUp = () => {
       email: document.getElementById("email").value,
       name: document.getElementById("name").value,
       password: document.getElementById("password").value,
-      profile_image: `https://picsum.photos/id/${getRandomNumber(1, 98)}/300/300`,
+      profile_image: `https://picsum.photos/id/${getRandomNumber(1, 10)}/300/300`,
     };
     const singUp = async () => {
       await fetch(
